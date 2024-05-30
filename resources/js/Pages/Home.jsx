@@ -1,9 +1,11 @@
-import React from "react";
+import GuestLayout from "@/Layouts/GuestLayout";
+import { Head } from "@inertiajs/react";
 
-export const Home = () => {
+export default function Home() {
     return (
         <>
+            <Head title="Home Page" />
             <div>Home</div>
         </>
     );
-};
+}
